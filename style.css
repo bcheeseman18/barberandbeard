@@ -1,16 +1,102 @@
 body {
-    background-color: black; 
+    background-color: white; 
+    font-family: 'Roboto', sans-serif;
 }
 
+header {
+    background-color: black; 
+    margin-bottom: 0px; 
+}
+
+.navbar {
+    margin-bottom: 0; 
+}
+
+        ul {
+            padding: 0px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+            a {
+                text-decoration: none;
+                color: white;
+                text-align: center;
+                display: inline-block;
+                list-style: none;
+                padding: 5px 15px;
+            }
+
 #logo {
-    height: 200px; 
-    width: 200px;
-    text-align: center;  
-    margin-bottom: 100px; 
+    height: 150px; 
+    width: 150px;
+    /*margin-left: 30px; */
+    /*margin-right: 50px; */
+    padding-top: 10px; 
+}
+#navLeft {
+    margin-right: 200px; 
+    margin-top: 55px; 
+}
+
+#navRight {
+    margin-left: 200px; 
+    margin-top: 55px; 
+}
+
+    .landing {
+        background: url(http://benandjohnnys.com/wp-content/uploads/2016/02/barber-brushes-gs-1080.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%; 
+        height: 600px; 
+        margin-bottom: 100px; 
+    }
+
+        .landingTwo {
+        background: url(http://cdn.hiconsumption.com/wp-content/uploads/2016/01/Gear-Guide-Perfect-Straight-Razor-Shave.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%; 
+        height: 400px; 
+        margin-bottom: 100px; 
+    }
+
+.storyTitle {
+    font-size: 5em; 
+    text-align: center; 
+    padding-left: 250px;
+    padding-right: 350px; 
+    padding-bottom: 150px;  
+}
+
+.paragraph {
+    font-size: 1em; 
+    line-height: 30px; 
+    padding-left: 100px;
+    padding-right: 100px; 
+}
+
+
+.doublePic {
+    height: 400px; 
+    text-align: center; 
+    margin-bottom: 300px; 
+}
+
+.twoPics {
+    height: 600px; 
+    width: 500px; 
+    padding-bottom: 100px; 
+    border-radius: 5px; 
 }
 
 .info {
-    border-top: 1px solid white; 
+    /*border-top: 1px solid black; */
     height: 400px; 
     text-align: center; 
 }
@@ -20,4 +106,36 @@ body {
     width: 300px; 
     margin-top: 50px; 
     border-radius: 5px; 
+}
+
+.qoute {
+    padding-left: 400px;
+    padding-right: 400px; 
+    font-size: 2.5em; 
+}
+
+.grid {
+    height: 100px; 
+    width: 100px; 
+}
+
+footer {
+    margin-top: 100px; 
+    background-color: black; 
+}
+
+.about {
+    color: white; 
+    text-align: left; 
+    padding-left: 200px;
+    padding-right: 200px; 
+
+}
+
+.contact {
+    color: white; 
+    text-align: right; 
+    padding-left: 200px;
+    padding-right: 200px; 
+    line-height: 12px; 
 }
