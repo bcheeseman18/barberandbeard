@@ -3,15 +3,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-header {
-    background-color: black; 
-    margin-bottom: 0px; 
-}
-
-.navbar {
-    margin-bottom: 0; 
-}
-
         ul {
             padding: 0px;
             display: flex;
@@ -32,17 +23,43 @@ header {
     width: 150px;
     /*margin-left: 30px; */
     /*margin-right: 50px; */
-    padding-top: 10px; 
+    padding-top: 5px; 
 }
-#navLeft {
+
+.navbar {
+    height: 170px; 
+    margin-bottom: 0;
+    background-color: black; 
+}
+
+.navbar-nav {
+    float: right; 
+    font-size: 1.5em; 
+}
+
+/*#navLeft {
     margin-right: 200px; 
     margin-top: 55px; 
+    height: 35px; 
+}
+
+#navLeft:hover {
+    border: 1px solid white; 
+    color: white; 
+    text-decoration: none; 
 }
 
 #navRight {
     margin-left: 200px; 
     margin-top: 55px; 
+    height: 35px; 
 }
+
+#navRight:hover {
+    border: 1px solid white; 
+    color: white; 
+    text-decoration: none; 
+}*/
 
     .landing {
         background: url(http://benandjohnnys.com/wp-content/uploads/2016/02/barber-brushes-gs-1080.jpg) no-repeat center center fixed; 
@@ -109,14 +126,8 @@ header {
 }
 
 .qoute {
-    padding-left: 400px;
-    padding-right: 400px; 
     font-size: 2.5em; 
-}
-
-.grid {
-    height: 100px; 
-    width: 100px; 
+    margin-bottom: 80px; 
 }
 
 footer {
