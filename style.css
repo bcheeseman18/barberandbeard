@@ -37,30 +37,6 @@ body {
     font-size: 1.5em; 
 }
 
-/*#navLeft {
-    margin-right: 200px; 
-    margin-top: 55px; 
-    height: 35px; 
-}
-
-#navLeft:hover {
-    border: 1px solid white; 
-    color: white; 
-    text-decoration: none; 
-}
-
-#navRight {
-    margin-left: 200px; 
-    margin-top: 55px; 
-    height: 35px; 
-}
-
-#navRight:hover {
-    border: 1px solid white; 
-    color: white; 
-    text-decoration: none; 
-}*/
-
     .landing {
         background: url(http://benandjohnnys.com/wp-content/uploads/2016/02/barber-brushes-gs-1080.jpg) no-repeat center center fixed; 
         -webkit-background-size: cover;
@@ -113,16 +89,36 @@ body {
 }
 
 .info {
-    /*border-top: 1px solid black; */
-    height: 400px; 
+    height: 320px; 
     text-align: center; 
+    /*margin: 0; */
 }
 
 .pic {
     height: 300px; 
     width: 300px; 
-    margin-top: 50px; 
     border-radius: 5px; 
+}
+
+/*.priceCut {
+    margin-left: 300px; 
+}*/
+
+.priceBox {
+    border: 1px solid black; 
+    height: 50px; 
+    width: 150px; 
+    text-align: center; 
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2em; 
+    margin-left: 150px; 
+    /*margin-top: 10px; */
+    padding-bottom: 0; 
+}
+
+.cut {
+    margin-top: 100px; 
+    text-align: center; 
 }
 
 .qoute {
