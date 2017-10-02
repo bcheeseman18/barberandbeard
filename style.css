@@ -1,32 +1,60 @@
 body {
     background-color: white; 
     font-family: 'Roboto', sans-serif;
+
+    
+}
+/*.pos-f-t {
+    background-color: black; 
+}*/
+
+/*.navbar {
+    background-color: black;
+    
+}*/
+
+/*#logo { 
+    float: right; 
+    height: 100px; 
+    width: 100px;
+    margin-left: 30px; 
+    margin-right: 50px; 
+    padding-top: 5px; 
+}*/
+
+.navbar {
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em; 
 }
 
-        ul {
+.navbar-brand {
+    font-size: 1.8em; 
+}
+
+        /*ul {
             padding: 0px;
             display: flex;
             flex-direction: row;
             justify-content: center;
-        }
-            a {
+        }*/
+            /*a {
                 text-decoration: none;
                 color: white;
                 text-align: center;
                 display: inline-block;
                 list-style: none;
                 padding: 5px 15px;
-            }
+            }*/
 
-#logo {
+/*#logo {
     height: 150px; 
     width: 150px;
-    /*margin-left: 30px; */
-    /*margin-right: 50px; */
+    margin-left: 30px; 
+    margin-right: 50px; 
     padding-top: 5px; 
-}
+}*/
 
-.navbar {
+/*.navbar {
     height: 170px; 
     margin-bottom: 0;
     background-color: black; 
@@ -35,6 +63,19 @@ body {
 .navbar-nav {
     float: right; 
     font-size: 1.5em; 
+}*/
+
+ .row {
+    margin-right: 0; 
+} 
+
+.navbar-brand {
+    padding-left: 0; 
+    margin-left: 0;
+}
+
+.navbar-toggler {
+    margin-top: 0; 
 }
 
     .landing {

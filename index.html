@@ -3,9 +3,18 @@
 
 <head>
     <title>Charlotte Barber and Beard</title>
+    
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <!--version 4-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+<!--version 3-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -14,7 +23,7 @@
 
     <!--Header goes here -->
 
-<nav class="navbar navbar-inverse">
+<!--<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#"><img id="logo" src="logo.jpg"></a>
@@ -25,7 +34,33 @@
       <li><a href="https://www.facebook.com/charlottebarberandbeard/">Facebook</a></li>
     </ul>
   </div>
+</nav>-->
+
+  <!-- Navbar content -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand ml-auto" href="#">Barber and Beard</a>
+  <!--<img id="logo" src="logo.jpg">-->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+    </ul>
+  </div>
 </nav>
+
+
+    </div>
+  </div>
+
+</div>
 
 <!--large picture one-->
     <div class="landing"></div>
@@ -36,7 +71,7 @@
             <div class="col-lg-12 col-md-6 story">
                 <div class="row">
                     <div class="col-lg-6 story"><h1 class="storyTitle">Our Story</h1></div>
-                    <div class="col-lg-6 story"><p class="paragraph">The premier barber shop of Plaza Midwood specializing in razor services and self-image refinery. Drop in and hang out in our community oriented space.</p></div>
+                    <div class="col-lg-6 col-sm-12 story"><p class="paragraph">The premier barber shop of Plaza Midwood specializing in razor services and self-image refinery. Drop in and hang out in our community oriented space.</p></div>
                 </div>
             </div>
         </div>
@@ -72,7 +107,7 @@
 
         <div class="row">
             <!--Men cut and Beard trim info-->
-            <div class="col-lg-6 col-md-6 info">
+            <div class="col-lg-6 col-md-12 info">
                 <div> 
                     <img class="pic" src="beardTrim.png">
                 </div>
@@ -85,12 +120,12 @@
             </div>
             
             <!--Men Beard-->
-            <div class="col-lg-6 col-md-6 info">
+            <div class="col-lg-6 col-md-12 info">
                 <div>
                     <img class="pic" src="beardpic.png">
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6">
+            <div class="col-lg-6 col-md-12">
                 <div> 
                     <p class="priceBox">$15</p>
                     <h4 class="cut">Men's Beard Trim</h4>
@@ -98,13 +133,13 @@
             </div>
             
             <!--Mens Cut-->
-            <div class="col-lg-6 col-md-6 info">
+            <div class="col-lg-6 col-md-12 info">
                 <div>
                     <img class="pic" src="mencut.png">
                 </div>
             </div>
 
-            <div class="col-lg-6 col-md-6">
+            <div class="col-lg-6 col-md-12">
                 <div> 
                     <p class="priceBox">$15</p>
                     <h4 class="cut">Men's Cut</h4>
@@ -112,39 +147,39 @@
             </div>     
             
             <!--Teen Cut-->
-            <div class="col-lg-6 col-md-6 info">
+            <div class="col-lg-6 col-md-12 info">
                 <div>
                     <img class="pic" src="teencut.png">
                 </div>
             </div>
             
-            <div class="col-lg-6 col-md-6 info">
+            <div class="col-lg-6 col-md-12 info">
                 <div> 
                     <div class="priceBox">$20</div>
                 </div>
             </div>                           
          
 <!--kids cut info -->
-            <div class="col-lg-6 col-md-6 info">
+            <div class="col-lg-6 col-md-12 info">
                 <div>
                     <img class="pic" src="kidscut.jpg">
                 </div>
             </div>
 
-            <div class="col-lg-6 col-md-6 info">
+            <div class="col-lg-6 col-md-12 info">
                 <div> 
                     <div class="priceBox">$15</div>
                 </div>
             </div>  
            
             <!--The Works-->
-            <div class="col-lg-6 col-md-6 info">
+            <div class="col-lg-6 col-md-12 info">
                 <div>
                     <img class="pic" src="theWorks.png">
                 </div>
             </div>
 
-            <div class="col-lg-6 col-md-6 info">
+            <div class="col-lg-6 col-md-12 info">
                 <div> 
                     <div class="priceBox">$50</div>
                 </div>
@@ -207,33 +242,32 @@
 
 <!--Picture Grid goes here-->
 
-    <div class="container">
+    <!--<div class="container">
         <div class="row">
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-12">
                 <div class="thumbnail">
                     <img src="http://www.barbershophistory.com/wp-content/uploads/2013/01/black___white_pole.jpg">
                 </div>
             </div>
     
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-12">
                 <div class="thumbnail">
                     <img src="https://i.ytimg.com/vi/PBlHw-YQyOY/maxresdefault.jpg">
                 </div>
             </div>
         
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-12">
                 <div class="thumbnail">
                     <img src="https://extra.globo.com/profile/bl_shmuellemle/11025972-d21-7e2/w488h275-PROP/barber-shop2.jpg">
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6">
+            <div class="col-lg-3 col-sm-12">
                 <div class="thumbnail">
-                    
                     <img src="http://1.bp.blogspot.com/-zn1L5vGLyLY/VDpCEWhWHXI/AAAAAAAATv0/HJtHmxM97FQ/s1600/barber%2Bshop%2B1922.jpg">
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 
 
    <!--Footer Goes Here-->
